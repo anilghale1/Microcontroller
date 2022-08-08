@@ -1,0 +1,9 @@
+ORG 0000h
+MOV PSW, #00h
+MOV r0, #00h
+MOV r1, #01h
+MOV r2, #02h
+MOV r3, #03h
+MOV r4, #04h
+MOV r5, #05h
+END
