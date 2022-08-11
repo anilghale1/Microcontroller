@@ -1,0 +1,11 @@
+MOV PSW,#00h
+MOV A, #55h     ;load value 55h into reg. A 
+MOV R0,A        ;copy contents of A into R0
+                ;(now A=R0=55h)
+MOV R1,A         ;(now A=R0=R1=55h)
+MOV R2,A         ;(now A=R0=R1=R2=55h)
+MOV R3, #95h     ;load value 96h into R3
+                 ;(now R3=95h)
+MOV A,R3         ;copy contents of R3 into A
+                  ;now A=R3=95h
+END
